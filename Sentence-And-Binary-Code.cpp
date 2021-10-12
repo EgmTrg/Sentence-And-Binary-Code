@@ -1,8 +1,5 @@
 using namespace std;
 #include <iostream>
-#include <list>
-
-#define FILE_ADDRESS "data.txt"
 
 class Node {
 public:
