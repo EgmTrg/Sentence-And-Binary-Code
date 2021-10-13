@@ -3,18 +3,20 @@
 using namespace std;
 #include <iostream>
 
-class Node {
+template<class T>
+class Node{
 public:
-	int Value;
+	T Value;
 	Node* Next;
 
 	class NodeOperations {
 	public:
 		void ExampleMethod() {
-			Node::NodeOperations nodeOp;
-			Node* head = new Node();
-			Node* second = new Node();
-			Node* third = new Node();
+			cout << "Created by Int32 DataType." << '\n';
+			Node<int>::NodeOperations nodeOp;
+			Node<int>* head = new Node<int>();
+			Node<int>* second = new Node<int>();
+			Node<int>* third = new Node<int>();
 
 			head->Value = 1;
 			head->Next = second;
@@ -23,7 +25,7 @@ public:
 			third->Value = 3;
 			third->Next = NULL;
 
-			nodeOp.ImportAtTheEnd(&head, 4);
+			nodeOp.ImportAtTheEnd(&head, (int)4);
 			nodeOp.PrintList(head);
 		}
 		void PrintList(Node* node) {
@@ -33,7 +35,8 @@ public:
 				node = node->Next;
 			}
 		}
-		void ImportAtTheEnd(Node** head, int newValue) {
+		template<typename T>
+		void ImportAtTheEnd(Node** head, T newValue) {
 			// Create a new node for import.
 			Node* newNode = new Node();
 			newNode->Value = newValue;
