@@ -14,4 +14,5 @@ Bir cümleyi ikilik sisteme çevirerek bir data.txt ya da farklı uzantılar ile
 - Çoklu dosyalar ile uğraşmak,
 - Kendimi C++'da geliştirmek için kendime zaman yaratmış oluyorum.
 
-<img width=“964” src=“https://drive.google.com/file/d/1Fc_mFmas8-uMaHs60arB4OSxPOR7mfbJ/view?usp=sharing 23”>
+# Diagram
+![Sentence-And-Binary-Code_diagram](https://user-images.githubusercontent.com/62505792/137210171-e5ad7db4-909f-45ae-85d8-024795b18cd6.png)
