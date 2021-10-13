@@ -13,3 +13,6 @@ Bir cümleyi ikilik sisteme çevirerek bir data.txt ya da farklı uzantılar ile
 - Bir yandan da pointer'lar ile ilgilenmek istiyorum. Yani bu projemde çokça kullanmak,
 - Çoklu dosyalar ile uğraşmak,
 - Kendimi C++'da geliştirmek için kendime zaman yaratmış oluyorum.
+
+
+https://drive.google.com/file/d/1Fc_mFmas8-uMaHs60arB4OSxPOR7mfbJ/view?usp=sharing
